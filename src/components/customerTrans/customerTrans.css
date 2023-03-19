@@ -1,0 +1,66 @@
+.customerTrans {
+    flex: 2;
+    -webkit-box-shadow: 0px 0px 7px -1px #000000; 
+    box-shadow: 0px 0px 7px -1px #000000;
+    padding: 20px;
+    background-color: #ccd6f6;
+    color: #1d3d6c;
+}
+
+.customerTransTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.customerTransTable {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.customerTransTh {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.customerTransUser {
+    display: flex;
+    align-items: center;
+}
+
+.customerTransDate, .customerTransAmount{
+    font-size: 15.5px;
+    font-weight: 500;
+}
+
+.customerTransImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 12px;
+}
+
+.customerTransName {
+    font-weight: 600;
+    font-size: 15.5px;
+}
+
+.customerTransButton {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.customerTransButton.Approved {
+    background-color: #e5faf2;
+    color: #3bb077;
+}
+.customerTransButton.Declined{
+    background-color: #fff0f1;
+    color: #d95087;
+}
+.customerTransButton.Pending {
+    background-color: #ebf1fe;
+    color: #2a7ad7;
+}

@@ -1,0 +1,33 @@
+.productList {
+    flex: 4;
+    background-color: #ccd6f6;
+}
+
+.producListdata {
+    display: flex;
+    align-items: center;
+}
+
+.productListaImage {
+    width: 35px;
+    height: 35px;
+    /* border-radius: 40%; */
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.userListEdit {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    background-color: #3bb077;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 18px;
+}
+
+
+.productListDelete {
+    color: #f00;
+    cursor: pointer;
+}
