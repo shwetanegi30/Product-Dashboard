@@ -45,7 +45,7 @@ const SideMenu = () => {
                          <li className='sidebarListItem'>
                              <ChromeReaderMode /> &nbsp;
                              Reports
-                         </li>
+                         </li> 
                      </ul>
                 </div>  
                 <div className='sidebarMenu'>

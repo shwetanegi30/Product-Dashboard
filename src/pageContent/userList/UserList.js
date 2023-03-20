@@ -1,7 +1,8 @@
-import './userList.css';
+import { useState } from 'react';
 import { DataGrid } from '@material-ui/data-grid';
 import { columnFunction, rows } from '../../Data/UserListData';
-import { useState } from 'react';
+import './userList.css';
+
 
 
 const UserList = () => {
@@ -12,7 +13,7 @@ const UserList = () => {
            <DataGrid
                 rows={dataRows}
                 columns={ columnFunction(dataRows,setdataRows) }
-                pageSize={8}
+                pageSize={10}
                 checkboxSelection
                 disableSelectionOnClick
             />

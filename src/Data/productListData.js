@@ -1,5 +1,5 @@
 import { DeleteOutline } from '@material-ui/icons';
-import { Link } from 'react-router-dom';
+
 
 export const columnFunction = (state, setState) => {
 
@@ -46,9 +46,7 @@ export const columnFunction = (state, setState) => {
                 }  
                 return (
                     <>
-                        <Link to={'/product/' + row.id}>
                             <button className='userListEdit'>Edit</button>
-                        </Link>
                         <DeleteOutline 
                             className='productListDelete'
                             onClick={ () => handleDelete(row.id) }

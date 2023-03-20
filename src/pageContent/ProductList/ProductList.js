@@ -12,7 +12,7 @@ const ProductList = () => {
              <DataGrid
                 rows={dataRows}
                 columns={ columnFunction(dataRows,setdataRows) }
-                pageSize={8}
+                pageSize={10}
                 checkboxSelection
                 disableSelectionOnClick
             />
